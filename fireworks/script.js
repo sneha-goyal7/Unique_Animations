@@ -34,7 +34,7 @@ function explode(x, y, hue) {
 }
 
 window.addEventListener("pointerdown", e => launch(e.clientX, e.clientY));
-setInterval(() => launch(Math.random() * W, Math.random() * H * 0.5 + 40), 1200);  // auto fireworks
+setInterval(() => launch(Math.random() * W, Math.random() * H * 0.5 + 40), 120);  // auto fireworks
 
 function animate() {
     requestAnimationFrame(animate);

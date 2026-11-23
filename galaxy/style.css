@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #000;
+}
+
+#webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+.hint {
+    position: fixed;
+    bottom: 16px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff80;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    pointer-events: none;
+}
